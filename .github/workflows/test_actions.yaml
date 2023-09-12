@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with:
+#      with:
         # Checkout as many commits as needed for the diff
 #        fetch-depth: 0
 
