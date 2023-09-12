@@ -1,0 +1,13 @@
+name: 'Test actions'
+
+on:
+  push:
+    branches: [ dev ]
+    paths:
+      - 'backend/**/*'
+      - 'frontend/**/*'
+  workflow_dispatch:
+    branches: [ dev ]
+
+jobs:
+
